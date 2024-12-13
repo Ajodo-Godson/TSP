@@ -6,5 +6,5 @@ __pycache__/
 
 .vscode/
 
-.backend/app.log
-.backend/tsp_solver.log
+backend/app.log
+backend/tsp_solver.log
