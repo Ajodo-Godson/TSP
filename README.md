@@ -71,6 +71,10 @@ The frontend is served directly by Flask, so no separate server is needed. Simpl
 - Special handling of flight segments between airports
 - Total journey time calculation
 
+### Notes on the Penalty function
+Mandatorily enforcing SFO <-> BER might not be posible as it violates subtour elimination constraints. 
+So we added a penalty function to the objective function to discourage the solver from using the SFO <-> BER connection at the very worst case. If there's a solution such that SFO <-> BER is used, it will be used, else the penalty function discourages the use of that. 
+
 ### Troubleshooting
 
 Common issues:
