@@ -2,7 +2,7 @@ services:
   - type: web
     name: tsp-solver
     env: python
-    buildCommand: pip install -r backend/requirements.txt
+    buildCommand: pip install -r requirements.txt
     startCommand: cd backend && gunicorn app:app
     envVars:
       - key: PYTHON_VERSION
