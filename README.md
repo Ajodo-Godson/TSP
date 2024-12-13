@@ -7,7 +7,7 @@ This project implements a Traveling Salesman Problem (TSP) solver optimized for 
 ## Mathematical Formulation
 
 The problem is formulated as an Integer Linear Program (ILP) where:
-- Each location is a vertex in a graph $ V = \{v_1, \ldots, v_n\} $
+- Each location is a vertex in a graph $V = \{v_1, \ldots, v_n\}$
 - Travel times between locations form the cost matrix $d(i,j)$
 - Binary variables $ x_{ij} $ indicate if edge $(i,j)$ is used in the solution
 - Additional constraints ensure:
