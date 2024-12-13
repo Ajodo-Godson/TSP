@@ -3,8 +3,17 @@ from flask_cors import CORS
 from solver import solve_tsp
 import logging
 import numpy as np
+import os
+from dotenv import load_dotenv
 
-app = Flask(__name__, static_folder="../frontend/static", template_folder="../frontend")
+# Load environment variables from .env file
+load_dotenv()
+
+app = Flask(
+    __name__,
+    static_folder="../frontend/static",
+    template_folder="../frontend/",
+)
 CORS(app)
 
 # Configure logging for Flask
@@ -13,6 +22,9 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[logging.FileHandler("app.log"), logging.StreamHandler()],
 )
+
+# Retrieve the Google Maps API key from environment variables
+GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 # Run the TSP solver on startup and store the result
 try:
@@ -44,8 +56,8 @@ def convert_types(obj):
 
 @app.route("/")
 def home():
-    """Serve the frontend."""
-    return render_template("index.html")
+    """Serve the frontend with the Google Maps API key."""
+    return render_template("index.html", google_maps_api_key=GOOGLE_MAPS_API_KEY)
 
 
 @app.route("/get_tsp_result", methods=["GET"])
@@ -69,5 +81,6 @@ def get_tsp_result():
 
 
 if __name__ == "__main__":
-    logging.info("Flask server is running.")
-    app.run(host="0.0.0.0", port=5001, debug=True)
+    port = int(os.environ.get("PORT", 5001))
+    logging.info(f"Flask server is running on port {port}.")
+    app.run(host="0.0.0.0", port=port, debug=True)
