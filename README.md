@@ -24,6 +24,7 @@ $$
    $$
    \sum_{j=1}^{n} x_{ij} = 1 \quad \forall i \in V \quad (\text{Outgoing})
    $$
+   
    $$
    \sum_{i=1}^{n} x_{ij} = 1 \quad \forall j \in V \quad (\text{Incoming})
    $$
