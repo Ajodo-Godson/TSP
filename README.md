@@ -51,8 +51,8 @@ $$
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/your-repo.git
-    cd your-repo
+    git clone https://github.com/Ajodo-Godson/TSP
+    cd TSP
     ```
 
 2. **Set up the backend**
