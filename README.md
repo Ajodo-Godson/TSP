@@ -19,6 +19,7 @@ The problem is formulated as an Integer Linear Program (ILP) where:
 $$
 \text{Minimize} \quad \sum_{i=1}^{n} \sum_{j=1}^{n} d(i,j) \cdot x_{ij}
 $$
+
 ### Constraints
 1. **Degree Constraints:**
    $$
