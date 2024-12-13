@@ -1,0 +1,184 @@
+/* frontend/static/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#ports {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.port-button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.port-button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    display: none;
+    /* Hidden by default */
+    margin-top: 20px;
+}
+
+#route-description {
+    font-weight: bold;
+}
+
+#steps {
+    margin-top: 10px;
+}
+
+.step {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid #007BFF;
+}
+
+#map {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.animation-controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.animation-controls button {
+    margin: 0 5px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.animation-controls button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.animation-controls button:hover:not(:disabled) {
+    background: #0056b3;
+}
+
+.route-step {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.route-step.active {
+    background-color: #e3f2fd;
+    border-left: 4px solid #007BFF;
+}
+
+.directions-panel {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.segment-directions {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.segment-directions h4 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.direction-step {
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 3px solid #007BFF;
+    background-color: #f8f9fa;
+}
+
+.direction-step .instruction {
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.direction-step .distance,
+.direction-step .duration {
+    font-size: 0.9em;
+    color: #6c757d;
+    margin: 2px 0;
+}
+
+.segment-divider {
+    border: 0;
+    height: 1px;
+    background-color: #dee2e6;
+    margin: 15px 0;
+}
+
+.segment-directions.flight {
+    background-color: #e3f2fd;
+    border-left: 4px solid #1976d2;
+}
+
+/* Make the route panel scrollable if content is too long */
+#route-names-panel {
+    max-height: 80vh;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+/* Ensure the map and directions panel are side by side */
+#result {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 20px;
+    padding: 20px;
+}
+
+#map {
+    height: 80vh;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+    #result {
+        grid-template-columns: 1fr;
+    }
+
+    #map {
+        height: 50vh;
+    }
+}

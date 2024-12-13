@@ -1,0 +1,197 @@
+2024-12-12 15:03:41,885 - INFO - Flask server is running.
+2024-12-12 15:10:36,038 - INFO - Flask server is running.
+2024-12-12 15:13:43,461 - INFO - Flask server is running.
+2024-12-12 15:18:25,124 - INFO - Flask server is running.
+2024-12-12 15:21:27,939 - INFO - Flask server is running.
+2024-12-12 15:23:41,973 - INFO - Flask server is running.
+2024-12-12 15:23:42,016 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.112.18.249:5000
+2024-12-12 15:23:42,016 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-12 15:23:42,017 - INFO -  * Restarting with stat
+2024-12-12 15:23:45,668 - INFO - Flask server is running.
+2024-12-12 15:23:45,695 - WARNING -  * Debugger is active!
+2024-12-12 15:23:45,706 - INFO -  * Debugger PIN: 368-828-955
+2024-12-12 15:23:59,631 - INFO - 127.0.0.1 - - [12/Dec/2024 15:23:59] "GET / HTTP/1.1" 200 -
+2024-12-12 15:23:59,689 - INFO - 127.0.0.1 - - [12/Dec/2024 15:23:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-12 15:23:59,689 - INFO - 127.0.0.1 - - [12/Dec/2024 15:23:59] "GET /static/map.js HTTP/1.1" 200 -
+2024-12-12 15:24:00,484 - INFO - TSP result successfully fetched.
+2024-12-12 15:24:00,555 - INFO - 127.0.0.1 - - [12/Dec/2024 15:24:00] "[35m[1mGET /get_tsp_result HTTP/1.1[0m" 500 -
+2024-12-12 15:24:24,509 - INFO -  * Detected change in '/Users/godsonajodo/Documents/Fall 2024/CS164/LBA Assignment/TSP/backend/app.py', reloading
+2024-12-12 15:24:24,658 - INFO -  * Restarting with stat
+2024-12-12 15:24:31,069 - INFO - Flask server is running.
+2024-12-12 15:24:31,107 - WARNING -  * Debugger is active!
+2024-12-12 15:24:31,115 - INFO -  * Debugger PIN: 368-828-955
+2024-12-12 15:24:37,272 - INFO -  * Detected change in '/Users/godsonajodo/Documents/Fall 2024/CS164/LBA Assignment/TSP/backend/app.py', reloading
+2024-12-12 15:24:37,365 - INFO -  * Restarting with stat
+2024-12-12 15:24:41,655 - INFO - Flask server is running.
+2024-12-12 15:24:41,675 - WARNING -  * Debugger is active!
+2024-12-12 15:24:41,680 - INFO -  * Debugger PIN: 368-828-955
+2024-12-12 15:24:46,897 - INFO - 127.0.0.1 - - [12/Dec/2024 15:24:46] "GET / HTTP/1.1" 200 -
+2024-12-12 15:24:46,965 - INFO - 127.0.0.1 - - [12/Dec/2024 15:24:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-12 15:24:46,966 - INFO - 127.0.0.1 - - [12/Dec/2024 15:24:46] "[36mGET /static/map.js HTTP/1.1[0m" 304 -
+2024-12-12 15:24:47,075 - INFO - TSP result successfully fetched.
+2024-12-12 15:24:47,093 - INFO - 127.0.0.1 - - [12/Dec/2024 15:24:47] "[35m[1mGET /get_tsp_result HTTP/1.1[0m" 500 -
+2024-12-12 15:26:32,030 - INFO -  * Detected change in '/Users/godsonajodo/Documents/Fall 2024/CS164/LBA Assignment/TSP/backend/app.py', reloading
+2024-12-12 15:26:32,192 - INFO -  * Restarting with stat
+2024-12-12 15:26:38,534 - INFO - Flask server is running.
+2024-12-12 15:26:38,574 - WARNING -  * Debugger is active!
+2024-12-12 15:26:38,582 - INFO -  * Debugger PIN: 368-828-955
+2024-12-12 15:26:42,313 - INFO - 127.0.0.1 - - [12/Dec/2024 15:26:42] "GET / HTTP/1.1" 200 -
+2024-12-12 15:26:42,411 - INFO - 127.0.0.1 - - [12/Dec/2024 15:26:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-12 15:26:42,415 - INFO - 127.0.0.1 - - [12/Dec/2024 15:26:42] "[36mGET /static/map.js HTTP/1.1[0m" 304 -
+2024-12-12 15:26:42,582 - INFO - TSP result successfully fetched.
+2024-12-12 15:26:42,583 - INFO - 127.0.0.1 - - [12/Dec/2024 15:26:42] "GET /get_tsp_result HTTP/1.1" 200 -
+2024-12-12 15:27:35,098 - INFO - 127.0.0.1 - - [12/Dec/2024 15:27:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-12 15:30:55,979 - INFO -  * Detected change in '/Users/godsonajodo/Documents/Fall 2024/CS164/LBA Assignment/TSP/backend/solver.py', reloading
+2024-12-12 15:30:56,146 - INFO -  * Restarting with stat
+2024-12-12 15:31:03,035 - INFO - Flask server is running.
+2024-12-12 15:31:03,065 - WARNING -  * Debugger is active!
+2024-12-12 15:31:03,073 - INFO -  * Debugger PIN: 368-828-955
+2024-12-12 15:32:19,597 - INFO -  * Detected change in '/Users/godsonajodo/Documents/Fall 2024/CS164/LBA Assignment/TSP/backend/solver.py', reloading
+2024-12-12 15:32:19,723 - INFO -  * Restarting with stat
+2024-12-12 15:32:26,749 - INFO - Flask server is running.
+2024-12-12 15:32:26,775 - WARNING -  * Debugger is active!
+2024-12-12 15:32:26,781 - INFO -  * Debugger PIN: 368-828-955
+2024-12-12 15:32:53,317 - INFO -  * Detected change in '/Users/godsonajodo/Documents/Fall 2024/CS164/LBA Assignment/TSP/backend/solver.py', reloading
+2024-12-12 15:32:53,433 - INFO -  * Restarting with stat
+2024-12-12 16:41:18,243 - INFO - Starting TSP solver...
+2024-12-12 16:41:18,243 - ERROR - Error running TSP solver: solve_tsp() missing 2 required positional arguments: 'objective' and 'constraints'
+2024-12-12 16:41:18,244 - INFO - Flask server is running.
+2024-12-12 16:41:18,275 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.112.18.249:5001
+2024-12-12 16:41:18,275 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-12 16:41:18,275 - INFO -  * Restarting with stat
+2024-12-12 16:41:18,809 - INFO - Starting TSP solver...
+2024-12-12 16:41:18,809 - ERROR - Error running TSP solver: solve_tsp() missing 2 required positional arguments: 'objective' and 'constraints'
+2024-12-12 16:41:18,810 - INFO - Flask server is running.
+2024-12-12 16:41:18,823 - WARNING -  * Debugger is active!
+2024-12-12 16:41:18,834 - INFO -  * Debugger PIN: 368-828-955
+2024-12-12 16:41:25,931 - INFO - 127.0.0.1 - - [12/Dec/2024 16:41:25] "GET / HTTP/1.1" 200 -
+2024-12-12 16:41:25,977 - INFO - 127.0.0.1 - - [12/Dec/2024 16:41:25] "GET /static/map.js HTTP/1.1" 200 -
+2024-12-12 16:41:25,978 - INFO - 127.0.0.1 - - [12/Dec/2024 16:41:25] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-12 16:41:26,705 - ERROR - TSP Solver Error: TSP solver failed.
+2024-12-12 16:41:26,707 - INFO - 127.0.0.1 - - [12/Dec/2024 16:41:26] "[35m[1mGET /get_tsp_result HTTP/1.1[0m" 500 -
+2024-12-12 16:41:26,847 - INFO - 127.0.0.1 - - [12/Dec/2024 16:41:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-12 16:41:31,222 - INFO - 127.0.0.1 - - [12/Dec/2024 16:41:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-12 16:43:07,104 - INFO - 127.0.0.1 - - [12/Dec/2024 16:43:07] "GET / HTTP/1.1" 200 -
+2024-12-12 16:43:07,155 - INFO - 127.0.0.1 - - [12/Dec/2024 16:43:07] "[36mGET /static/map.js HTTP/1.1[0m" 304 -
+2024-12-12 16:43:07,157 - INFO - 127.0.0.1 - - [12/Dec/2024 16:43:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-12 16:43:07,538 - ERROR - TSP Solver Error: TSP solver failed.
+2024-12-12 16:43:07,539 - INFO - 127.0.0.1 - - [12/Dec/2024 16:43:07] "[35m[1mGET /get_tsp_result HTTP/1.1[0m" 500 -
+2024-12-12 16:43:15,508 - ERROR - TSP Solver Error: TSP solver failed.
+2024-12-12 16:43:15,515 - INFO - 127.0.0.1 - - [12/Dec/2024 16:43:15] "[35m[1mGET /get_tsp_result HTTP/1.1[0m" 500 -
+2024-12-12 16:45:10,913 - INFO -  * Detected change in '/Users/godsonajodo/Documents/Fall 2024/CS164/LBA Assignment/TSP/backend/solver.py', reloading
+2024-12-12 16:45:11,003 - INFO -  * Restarting with stat
+2024-12-12 16:45:11,800 - INFO - Starting TSP solver...
+2024-12-12 16:45:11,800 - INFO - Google API Key successfully retrieved.
+2024-12-12 16:45:11,804 - INFO - API queries_quota: 60
+2024-12-12 16:45:18,749 - INFO - TSP solver completed successfully.
+2024-12-12 16:45:18,750 - INFO - Flask server is running.
+2024-12-12 16:45:18,770 - WARNING -  * Debugger is active!
+2024-12-12 16:45:18,776 - INFO -  * Debugger PIN: 368-828-955
+2024-12-12 16:45:33,109 - INFO -  * Detected change in '/Users/godsonajodo/Documents/Fall 2024/CS164/LBA Assignment/TSP/backend/app.py', reloading
+2024-12-12 16:45:33,195 - INFO -  * Restarting with stat
+2024-12-12 16:45:33,817 - INFO - Starting TSP solver...
+2024-12-12 16:45:33,818 - INFO - Google API Key successfully retrieved.
+2024-12-12 16:45:33,821 - INFO - API queries_quota: 60
+2024-12-12 16:45:37,791 - INFO - TSP solver completed successfully.
+2024-12-12 16:45:37,793 - INFO - Flask server is running.
+2024-12-12 16:45:37,818 - WARNING -  * Debugger is active!
+2024-12-12 16:45:37,826 - INFO -  * Debugger PIN: 368-828-955
+2024-12-12 16:46:52,609 - INFO - Starting TSP solver...
+2024-12-12 16:46:52,609 - INFO - Google API Key successfully retrieved.
+2024-12-12 16:46:52,613 - INFO - API queries_quota: 60
+2024-12-12 16:46:56,129 - INFO - TSP solver completed successfully.
+2024-12-12 16:46:56,130 - INFO - Flask server is running.
+2024-12-12 16:46:56,159 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.112.18.249:5001
+2024-12-12 16:46:56,159 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-12 16:46:56,160 - INFO -  * Restarting with stat
+2024-12-12 16:46:56,653 - INFO - Starting TSP solver...
+2024-12-12 16:46:56,653 - INFO - Google API Key successfully retrieved.
+2024-12-12 16:46:56,656 - INFO - API queries_quota: 60
+2024-12-12 16:47:00,309 - INFO - TSP solver completed successfully.
+2024-12-12 16:47:00,311 - INFO - Flask server is running.
+2024-12-12 16:47:00,340 - WARNING -  * Debugger is active!
+2024-12-12 16:47:00,349 - INFO -  * Debugger PIN: 368-828-955
+2024-12-12 16:47:05,180 - INFO - 127.0.0.1 - - [12/Dec/2024 16:47:05] "GET / HTTP/1.1" 200 -
+2024-12-12 16:47:05,239 - INFO - 127.0.0.1 - - [12/Dec/2024 16:47:05] "[36mGET /static/map.js HTTP/1.1[0m" 304 -
+2024-12-12 16:47:05,242 - INFO - 127.0.0.1 - - [12/Dec/2024 16:47:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-12 16:47:05,686 - INFO - TSP result successfully fetched.
+2024-12-12 16:47:05,687 - INFO - 127.0.0.1 - - [12/Dec/2024 16:47:05] "GET /get_tsp_result HTTP/1.1" 200 -
+2024-12-12 16:50:06,884 - INFO -  * Detected change in '/Users/godsonajodo/Documents/Fall 2024/CS164/LBA Assignment/TSP/backend/solver.py', reloading
+2024-12-12 16:50:07,051 - INFO -  * Restarting with stat
+2024-12-12 16:50:07,896 - INFO - Starting TSP solver...
+2024-12-12 16:50:07,896 - INFO - Google API Key successfully retrieved.
+2024-12-12 16:50:07,900 - INFO - API queries_quota: 60
+2024-12-12 16:50:14,039 - INFO - TSP solver completed successfully.
+2024-12-12 16:50:14,040 - INFO - Flask server is running.
+2024-12-12 16:50:14,073 - WARNING -  * Debugger is active!
+2024-12-12 16:50:14,080 - INFO -  * Debugger PIN: 368-828-955
+2024-12-12 17:00:23,063 - INFO - 127.0.0.1 - - [12/Dec/2024 17:00:23] "GET / HTTP/1.1" 200 -
+2024-12-12 17:00:23,132 - INFO - 127.0.0.1 - - [12/Dec/2024 17:00:23] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-12 17:00:23,136 - INFO - 127.0.0.1 - - [12/Dec/2024 17:00:23] "GET /static/map.js HTTP/1.1" 200 -
+2024-12-12 17:00:23,646 - INFO - TSP result successfully fetched.
+2024-12-12 17:00:23,647 - INFO - 127.0.0.1 - - [12/Dec/2024 17:00:23] "GET /get_tsp_result HTTP/1.1" 200 -
+2024-12-12 17:18:28,915 - INFO -  * Detected change in '/Users/godsonajodo/Documents/Fall 2024/CS164/LBA Assignment/TSP/backend/solver.py', reloading
+2024-12-12 17:18:29,087 - INFO -  * Restarting with stat
+2024-12-12 17:18:29,980 - INFO - Starting TSP solver...
+2024-12-12 17:18:29,981 - INFO - Google API Key successfully retrieved.
+2024-12-12 17:18:29,985 - INFO - API queries_quota: 60
+2024-12-12 17:18:38,275 - INFO - TSP solver completed successfully.
+2024-12-12 17:18:38,276 - INFO - Flask server is running.
+2024-12-12 17:18:38,304 - WARNING -  * Debugger is active!
+2024-12-12 17:18:38,311 - INFO -  * Debugger PIN: 368-828-955
+2024-12-12 17:22:06,165 - INFO - 127.0.0.1 - - [12/Dec/2024 17:22:06] "GET / HTTP/1.1" 200 -
+2024-12-12 17:22:06,243 - INFO - 127.0.0.1 - - [12/Dec/2024 17:22:06] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-12 17:22:06,244 - INFO - 127.0.0.1 - - [12/Dec/2024 17:22:06] "GET /static/map.js HTTP/1.1" 200 -
+2024-12-12 17:22:06,687 - INFO - TSP result successfully fetched.
+2024-12-12 17:22:06,696 - INFO - 127.0.0.1 - - [12/Dec/2024 17:22:06] "GET /get_tsp_result HTTP/1.1" 200 -
+2024-12-12 17:27:16,309 - INFO -  * Detected change in '/Users/godsonajodo/Documents/Fall 2024/CS164/LBA Assignment/TSP/backend/solver.py', reloading
+2024-12-12 17:27:16,530 - INFO -  * Restarting with stat
+2024-12-12 17:27:17,492 - INFO - Starting TSP solver...
+2024-12-12 17:27:17,492 - INFO - Google API Key successfully retrieved.
+2024-12-12 17:27:17,496 - INFO - API queries_quota: 60
+2024-12-12 17:27:24,213 - INFO - TSP solver completed successfully.
+2024-12-12 17:27:24,214 - INFO - Flask server is running.
+2024-12-12 17:27:24,249 - WARNING -  * Debugger is active!
+2024-12-12 17:27:24,258 - INFO -  * Debugger PIN: 368-828-955
+2024-12-12 17:27:26,845 - INFO - 127.0.0.1 - - [12/Dec/2024 17:27:26] "GET / HTTP/1.1" 200 -
+2024-12-12 17:27:26,907 - INFO - 127.0.0.1 - - [12/Dec/2024 17:27:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-12 17:27:26,908 - INFO - 127.0.0.1 - - [12/Dec/2024 17:27:26] "[36mGET /static/map.js HTTP/1.1[0m" 304 -
+2024-12-12 17:27:27,366 - INFO - TSP result successfully fetched.
+2024-12-12 17:27:27,368 - INFO - 127.0.0.1 - - [12/Dec/2024 17:27:27] "GET /get_tsp_result HTTP/1.1" 200 -
+2024-12-12 17:29:15,160 - INFO - 127.0.0.1 - - [12/Dec/2024 17:29:15] "GET / HTTP/1.1" 200 -
+2024-12-12 17:29:15,209 - INFO - 127.0.0.1 - - [12/Dec/2024 17:29:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-12 17:29:15,211 - INFO - 127.0.0.1 - - [12/Dec/2024 17:29:15] "GET /static/map.js HTTP/1.1" 200 -
+2024-12-12 17:29:24,135 - INFO - 127.0.0.1 - - [12/Dec/2024 17:29:24] "GET / HTTP/1.1" 200 -
+2024-12-12 17:29:24,160 - INFO - 127.0.0.1 - - [12/Dec/2024 17:29:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-12 17:29:24,161 - INFO - 127.0.0.1 - - [12/Dec/2024 17:29:24] "[36mGET /static/map.js HTTP/1.1[0m" 304 -
+2024-12-12 17:29:28,784 - INFO - 127.0.0.1 - - [12/Dec/2024 17:29:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-12 17:36:32,330 - INFO - 127.0.0.1 - - [12/Dec/2024 17:36:32] "GET / HTTP/1.1" 200 -
+2024-12-12 17:36:32,385 - INFO - 127.0.0.1 - - [12/Dec/2024 17:36:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-12 17:36:32,387 - INFO - 127.0.0.1 - - [12/Dec/2024 17:36:32] "GET /static/map.js HTTP/1.1" 200 -
+2024-12-12 17:36:32,836 - INFO - TSP result successfully fetched.
+2024-12-12 17:36:32,850 - INFO - 127.0.0.1 - - [12/Dec/2024 17:36:32] "GET /get_tsp_result HTTP/1.1" 200 -
+2024-12-12 17:38:41,836 - INFO - 127.0.0.1 - - [12/Dec/2024 17:38:41] "GET / HTTP/1.1" 200 -
+2024-12-12 17:38:41,910 - INFO - 127.0.0.1 - - [12/Dec/2024 17:38:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-12 17:38:41,912 - INFO - 127.0.0.1 - - [12/Dec/2024 17:38:41] "GET /static/map.js HTTP/1.1" 200 -
+2024-12-12 17:38:42,374 - INFO - TSP result successfully fetched.
+2024-12-12 17:38:42,377 - INFO - 127.0.0.1 - - [12/Dec/2024 17:38:42] "GET /get_tsp_result HTTP/1.1" 200 -
+2024-12-12 17:42:42,175 - INFO - 127.0.0.1 - - [12/Dec/2024 17:42:42] "GET / HTTP/1.1" 200 -
+2024-12-12 17:42:42,246 - INFO - 127.0.0.1 - - [12/Dec/2024 17:42:42] "GET /static/map.js HTTP/1.1" 200 -
+2024-12-12 17:42:42,248 - INFO - 127.0.0.1 - - [12/Dec/2024 17:42:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-12 17:42:42,747 - INFO - TSP result successfully fetched.
+2024-12-12 17:42:42,749 - INFO - 127.0.0.1 - - [12/Dec/2024 17:42:42] "GET /get_tsp_result HTTP/1.1" 200 -
+2024-12-12 17:46:08,047 - INFO - 127.0.0.1 - - [12/Dec/2024 17:46:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-12 17:46:57,220 - INFO - 127.0.0.1 - - [12/Dec/2024 17:46:57] "GET / HTTP/1.1" 200 -
+2024-12-12 17:46:57,262 - INFO - 127.0.0.1 - - [12/Dec/2024 17:46:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-12 17:46:57,269 - INFO - 127.0.0.1 - - [12/Dec/2024 17:46:57] "GET /static/map.js HTTP/1.1" 200 -
+2024-12-12 17:46:57,683 - INFO - TSP result successfully fetched.
+2024-12-12 17:46:57,689 - INFO - 127.0.0.1 - - [12/Dec/2024 17:46:57] "GET /get_tsp_result HTTP/1.1" 200 -

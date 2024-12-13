@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TSP Solver</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuG6RzWnxhae6O8Iu_A_fuw5N3Gqite4I"></script>
+</head>
+
+<body>
+    <h1>Traveling Salesman Problem Solver</h1>
+    <div id="ports">
+        <button class="port-button" data-port="0">Berlin Residence</button>
+        <button class="port-button" data-port="6">SF Intl Airport (SFO)</button>
+        <button class="port-button" data-port="11">Berlin Airport (BER)</button>
+        <button class="port-button" data-port="7">Berlin TV Tower</button>
+    </div>
+
+    <div id="result">
+        <h2>Optimal Route</h2>
+        <div id="route-names-panel"></div>
+        <h3>Map Visualization:</h3>
+        <div id="map" style="height: 500px; width: 100%;"></div>
+    </div>
+
+    <script src="/static/map.js"></script>
+</body>
+
+</html>
