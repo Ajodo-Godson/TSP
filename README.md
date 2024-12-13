@@ -9,7 +9,7 @@ This project implements a Traveling Salesman Problem (TSP) solver optimized for 
 The problem is formulated as an Integer Linear Program (ILP) where:
 - Each location is a vertex in a graph $V = \{v_1, \ldots, v_n\}$
 - Travel times between locations form the cost matrix $d(i,j)$
-- Binary variables $ x_{ij} $ indicate if edge $(i,j)$ is used in the solution
+- Binary variables $x_{ij}$ indicate if edge $(i,j)$ is used in the solution
 - Additional constraints ensure:
   - Each location is visited exactly once
   - Only valid airport connections are used for intercontinental travel
@@ -17,9 +17,7 @@ The problem is formulated as an Integer Linear Program (ILP) where:
 
 ### Objective Function
 $$
-
 \text{Minimize} \quad \sum_{i=1}^{n} \sum_{j=1}^{n} d(i,j) \cdot x_{ij}
-
 $$
 ### Constraints
 1. **Degree Constraints:**
