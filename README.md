@@ -22,6 +22,7 @@ $$
 
 ### Constraints
 1. **Degree Constraints:**
+
    $$
    \sum_{j=1}^{n} x_{ij} = 1 \quad \forall i \in V \quad (\text{Outgoing})
    $$
