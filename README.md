@@ -23,9 +23,7 @@ $$
 ### Constraints
 1. **Degree Constraints:**
 
-   $$
-   \sum_{j=1}^{n} x_{ij} = 1 \quad \forall i \in V \quad (\text{Outgoing})
-   $$
+   $\sum_{j=1}^{n} x_{ij} = 1 \quad \forall i \in V \quad (\text{Outgoing})$
 ## Features
 
 - Optimized route calculation between multiple locations in Berlin and San Francisco
