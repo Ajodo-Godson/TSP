@@ -5,3 +5,6 @@ __pycache__/
 .DS_Store 
 
 .vscode/
+
+backend/app.log
+backend/tsp_solver.log
