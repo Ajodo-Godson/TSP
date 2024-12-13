@@ -1,6 +1,3 @@
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
 # Traveling Salesman Problem (TSP) Solver
 
 ## Overview
@@ -27,21 +24,6 @@ $$
    $$
    \sum_{j=1}^{n} x_{ij} = 1 \quad \forall i \in V \quad (\text{Outgoing})
    $$
-   
-   $$
-   \sum_{i=1}^{n} x_{ij} = 1 \quad \forall j \in V \quad (\text{Incoming})
-   $$
-
-2. **Miller-Tucker-Zemlin (MTZ) Subtour Elimination:**
-   $$
-   u_i - u_j + n \cdot x_{ij} \leq n - 1 \quad \forall i, j \in V, \, i \neq j
-   $$
-
-3. **Airport Connection Constraints:**
-   $$
-   x_{ij} = 0 \quad \text{if} \quad i \in \text{Berlin}, \, j \in \text{SF} \quad \text{and} \quad (i,j) \notin \text{Airports}
-   $$
-
 ## Features
 
 - Optimized route calculation between multiple locations in Berlin and San Francisco
